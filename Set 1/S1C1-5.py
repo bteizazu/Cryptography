@@ -1,3 +1,9 @@
+#Set 1 Challenge 1: Convert hex to b64
+def hex_2_b64(hex_str):
+    # hex -> base64
+    b64 = b64encode(bytes.fromhex(hex_str)).decode()
+    return b64
+
 #Set 1 Challenge 2: Fixed XOR
 a = '1c0111001f010100061a024b53535009181c'
 a = bin(int(a, 16))
